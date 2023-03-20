@@ -1,11 +1,5 @@
----
-layout: post
-title: Hotdog or Not-Hotdog
-date: 2020-09-16 22:34
-author: lauskij
-comments: true
-categories: [Classification, CNN, Convolutional Neural Network, deep learning, HBO, HBO Nordic, Hotdog, Ikke kategoriseret, Machine learning, ML, neural networks, Not-hotdog, Silicon Valley]
----
+<h1>Hotdog or Not-Hotdog</h1>
+
 <!-- wp:paragraph {"customFontSize":15} -->
 <p style="font-size:15px"><em>Author: Lau Johansson<br>16th September 2020<br>Reading time: 5 min.</em></p>
 <!-- /wp:paragraph -->
@@ -18,12 +12,7 @@ categories: [Classification, CNN, Convolutional Neural Network, deep learning, H
 <p>Now you don't have to find out by yourself whether an object is a hotdog or not. The guys from<a href="https://dk.hbonordic.com/"> HBO's</a> <a href="https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)">Silicon Valley</a> have made an app where you can take a picture of an object - then, it tells you if it is a hotdog or not a hotdog.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:embed {"url":"https://www.youtube.com/watch?v=pqTntG1RXSY","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=pqTntG1RXSY
-</div></figure>
-<!-- /wp:embed -->
-
+[![IMAGE ALT TEXT HERE](https://duet-cdn.vox-cdn.com/thumbor/0x0:2544x1428/750x500/filters:focal(1340x656:1341x657):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/8518031/jian_yang_hbo_silicon_valley.png)](https://www.youtube.com/watch?v=vIci3C4JkL0)
 <!-- wp:heading -->
 <h2>What is the point?</h2>
 <!-- /wp:heading -->

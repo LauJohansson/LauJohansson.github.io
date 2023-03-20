@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="14182572-de29-43c1-be3f-4e3ca6cf4b76" data-root-id="55364"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="55565">
+          {"03ebf873-7cd2-4f8a-9c54-12ce276bc533":{"roots":{"references":[{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"55384","type":"PanTool"},{"id":"55385","type":"WheelZoomTool"},{"id":"55386","type":"BoxZoomTool"},{"id":"55387","type":"SaveTool"},{"id":"55388","type":"ResetTool"},{"id":"55389","type":"HelpTool"},{"id":"55418","type":"HoverTool"}]},"id":"55390","type":"Toolbar"},{"attributes":{"end":{"id":"55422","type":"NormalHead"},"source":null,"start":null,"x_end":{"value":0.4},"x_start":{"value":-0.5},"y_end":{"value":1.6},"y_start":{"value":1.9}},"id":"55423","type":"Arrow"},{"attributes":{},"id":"55387","type":"SaveTool"},{"attributes":{"callback":null,"data":{"coeff":{"__ndarray__":"xDXMXos78z9gPo0t2zriP1ATUiYoiJ0/oFlXPCA+uT+ic4A1sWnFvwCpRHo3Cuc/","dtype":"float64","shape":[6]},"err":{"__ndarray__":"coqjFwXVBED2fC+DjtrwP4S1A1wu3us/qUFr5c576T+LLzcZI6/rP1wdAydslwVA","dtype":"float64","shape":[6]},"high":{"__ndarray__":"G+A3O0gIBECrXV7YtIrxP7nWaN6wtt0/ERiB9FbL3z+69XZ+SvrQP+64EvJDjgBA","dtype":"float64","shape":[6]},"idx":{"__ndarray__":"AAAAAAAA4D8AAAAAAAD4PwAAAAAAAARAAAAAAAAADEAAAAAAAAASQAAAAAAAABZA","dtype":"float64","shape":[6]},"idxh":{"__ndarray__":"mpmZmZmZ4T/NzMzMzMz4P2ZmZmZmZgRAZmZmZmZmDEAzMzMzMzMSQDMzMzMzMxZA","dtype":"float64","shape":[6]},"idxl":{"__ndarray__":"zczMzMzM3D8zMzMzMzP3P5qZmZmZmQNAmpmZmZmZC0DNzMzMzMwRQM3MzMzMzBVA","dtype":"float64","shape":[6]},"index":[0,1,2,3,4,5],"low":{"__ndarray__":"4Ep1jZuXub+gFtylygSmP0+UntmrBdq/QWtV1kYs07+utPvZ/THjv7aRwdOgJOS/","dtype":"float64","shape":[6]},"mod":["mod2","mod2","mod2","mod2","mod2","mod1"],"var":["Education score","Avg household income","Unemployment rate","Qualified coverage","Students","Share foreign"]},"selected":{"id":"55435","type":"Selection"},"selection_policy":{"id":"55434","type":"UnionRenderers"}},"id":"55363","type":"ColumnDataSource"},{"attributes":{"axis_label":"Coefficient","formatter":{"id":"55431","type":"BasicTickFormatter"},"ticker":{"id":"55376","type":"BasicTicker"}},"id":"55375","type":"LinearAxis"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":2},"x0":{"field":"low"},"x1":{"field":"low"},"y0":{"field":"idxl"},"y1":{"field":"idxh"}},"id":"55409","type":"Segment"},{"attributes":{"background_fill_alpha":{"value":10.0},"background_fill_color":{"value":"white"},"border_line_color":{"value":"black"},"render_mode":"css","text":" Only avg. household income is significant ","text_font_size":{"value":"7.4pt"},"x":12,"x_units":"screen","y":160,"y_units":"screen"},"id":"55420","type":"Label"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"units":"data","value":0.005},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"width":{"field":"err","units":"data"},"x":{"field":"coeff"},"y":{"field":"idx"}},"id":"55399","type":"Rect"},{"attributes":{"source":{"id":"55363","type":"ColumnDataSource"}},"id":"55401","type":"CDSView"},{"attributes":{"fill_color":{"value":"#99d594"},"line_color":{"value":"#99d594"},"size":{"units":"screen","value":10},"x":{"field":"coeff"},"y":{"field":"idx"}},"id":"55403","type":"Circle"},{"attributes":{},"id":"55385","type":"WheelZoomTool"},{"attributes":{},"id":"55429","type":"CategoricalTickFormatter"},{"attributes":{"line_color":{"value":"#99d594"},"line_width":{"value":2},"x0":{"field":"high"},"x1":{"field":"high"},"y0":{"field":"idxl"},"y1":{"field":"idxh"}},"id":"55413","type":"Segment"},{"attributes":{"callback":null,"tooltips":[["Variable","@var"],["Coefficient","@coeff"]]},"id":"55418","type":"HoverTool"},{"attributes":{"size":10},"id":"55425","type":"NormalHead"},{"attributes":{"data_source":{"id":"55363","type":"ColumnDataSource"},"glyph":{"id":"55408","type":"Segment"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"55409","type":"Segment"},"selection_glyph":null,"view":{"id":"55411","type":"CDSView"}},"id":"55410","type":"GlyphRenderer"},{"attributes":{},"id":"55384","type":"PanTool"},{"attributes":{},"id":"55388","type":"ResetTool"},{"attributes":{"ticker":{"id":"55376","type":"BasicTicker"}},"id":"55379","type":"Grid"},{"attributes":{"line_color":{"value":"#99d594"},"line_width":{"value":2},"x0":{"field":"low"},"x1":{"field":"low"},"y0":{"field":"idxl"},"y1":{"field":"idxh"}},"id":"55408","type":"Segment"},{"attributes":{"data_source":{"id":"55363","type":"ColumnDataSource"},"glyph":{"id":"55398","type":"Rect"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"55399","type":"Rect"},"selection_glyph":null,"view":{"id":"55401","type":"CDSView"}},"id":"55400","type":"GlyphRenderer"},{"attributes":{},"id":"55431","type":"BasicTickFormatter"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":2},"x0":{"field":"high"},"x1":{"field":"high"},"y0":{"field":"idxl"},"y1":{"field":"idxh"}},"id":"55414","type":"Segment"},{"attributes":{"callback":null,"factors":["Education score","Avg household income","Unemployment rate","Qualified coverage","Students","Share foreign"]},"id":"55369","type":"FactorRange"},{"attributes":{"dimension":1,"ticker":{"id":"55381","type":"CategoricalTicker"}},"id":"55383","type":"Grid"},{"attributes":{"axis_label":"Variable","formatter":{"id":"55429","type":"CategoricalTickFormatter"},"ticker":{"id":"55381","type":"CategoricalTicker"}},"id":"55380","type":"CategoricalAxis"},{"attributes":{},"id":"55373","type":"CategoricalScale"},{"attributes":{},"id":"55376","type":"BasicTicker"},{"attributes":{},"id":"55371","type":"LinearScale"},{"attributes":{"size":10},"id":"55422","type":"NormalHead"},{"attributes":{"source":{"id":"55363","type":"ColumnDataSource"}},"id":"55411","type":"CDSView"},{"attributes":{},"id":"55434","type":"UnionRenderers"},{"attributes":{"text":"Coefficients of Model 3 (Ethnicity + Institutional + Socio-economic)"},"id":"55365","type":"Title"},{"attributes":{"data_source":{"id":"55363","type":"ColumnDataSource"},"glyph":{"id":"55403","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"55404","type":"Circle"},"selection_glyph":null,"view":{"id":"55406","type":"CDSView"}},"id":"55405","type":"GlyphRenderer"},{"attributes":{"dimension":"height","line_width":{"value":2},"location":0},"id":"55417","type":"Span"},{"attributes":{"end":{"id":"55425","type":"NormalHead"},"source":null,"start":null,"x_end":{"value":-0.15},"x_start":{"value":-0.45},"y_end":{"value":0.4},"y_start":{"value":0.15}},"id":"55426","type":"Arrow"},{"attributes":{"data_source":{"id":"55363","type":"ColumnDataSource"},"glyph":{"id":"55413","type":"Segment"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"55414","type":"Segment"},"selection_glyph":null,"view":{"id":"55416","type":"CDSView"}},"id":"55415","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"55433","type":"BoxAnnotation"},{"attributes":{},"id":"55381","type":"CategoricalTicker"},{"attributes":{"source":{"id":"55363","type":"ColumnDataSource"}},"id":"55416","type":"CDSView"},{"attributes":{"below":[{"id":"55375","type":"LinearAxis"}],"center":[{"id":"55379","type":"Grid"},{"id":"55383","type":"Grid"},{"id":"55420","type":"Label"},{"id":"55421","type":"Label"},{"id":"55423","type":"Arrow"},{"id":"55426","type":"Arrow"}],"left":[{"id":"55380","type":"CategoricalAxis"}],"renderers":[{"id":"55400","type":"GlyphRenderer"},{"id":"55405","type":"GlyphRenderer"},{"id":"55410","type":"GlyphRenderer"},{"id":"55415","type":"GlyphRenderer"},{"id":"55417","type":"Span"}],"title":{"id":"55365","type":"Title"},"toolbar":{"id":"55390","type":"Toolbar"},"x_range":{"id":"55367","type":"Range1d"},"x_scale":{"id":"55371","type":"LinearScale"},"y_range":{"id":"55369","type":"FactorRange"},"y_scale":{"id":"55373","type":"CategoricalScale"}},"id":"55364","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"end":2.75,"start":-2.75},"id":"55367","type":"Range1d"},{"attributes":{},"id":"55389","type":"HelpTool"},{"attributes":{"fill_color":{"value":"#99d594"},"height":{"units":"data","value":0.005},"line_color":{"value":"#99d594"},"width":{"field":"err","units":"data"},"x":{"field":"coeff"},"y":{"field":"idx"}},"id":"55398","type":"Rect"},{"attributes":{},"id":"55435","type":"Selection"},{"attributes":{"background_fill_alpha":{"value":10.0},"background_fill_color":{"value":"white"},"border_line_color":{"value":"black"},"render_mode":"css","text":" Although education score is pretty close! ","text_font_size":{"value":"7.4pt"},"x":5,"x_units":"screen","y":10,"y_units":"screen"},"id":"55421","type":"Label"},{"attributes":{"source":{"id":"55363","type":"ColumnDataSource"}},"id":"55406","type":"CDSView"},{"attributes":{"overlay":{"id":"55433","type":"BoxAnnotation"}},"id":"55386","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"coeff"},"y":{"field":"idx"}},"id":"55404","type":"Circle"}],"root_ids":["55364"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('55565').textContent;
+                  var render_items = [{"docid":"03ebf873-7cd2-4f8a-9c54-12ce276bc533","roots":{"55364":"14182572-de29-43c1-be3f-4e3ca6cf4b76"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

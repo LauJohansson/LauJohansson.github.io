@@ -1,11 +1,4 @@
----
-layout: post
-title: The math behind: Implementing Ethics in Autonomous Vehicles
-date: 2020-08-11 23:13
-author: lauskij
-comments: true
-categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke kategoriseret, Logic, Machine learning, Math, Mathematics]
----
+<h1>Implementing Ethics in Autonomous Vehicles</h1>
 <!-- wp:paragraph {"customFontSize":15} -->
 <p style="font-size:15px"><em>Author: Lau Johansson<br>11th August 2020<br>Reading time: 15 min.</em></p>
 <!-- /wp:paragraph -->
@@ -26,9 +19,8 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Symbols that are often used are: </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1512,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_1.png" alt="" class="wp-image-1512"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_1.png)
+
 
 <!-- wp:paragraph -->
 <p>Here’s an example:</p>
@@ -38,17 +30,13 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>“If you go in the rain and don’t have any rain gear or umbrella, you will get wet”</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1513,"width":780,"height":499,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://explorifydata.com/wp-content/uploads/2021/03/rain.png" alt="" class="wp-image-1513" width="780" height="499"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/rain.png)
 
 <!-- wp:paragraph -->
 <p>This could be formalized as:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1515,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_2.png" alt="" class="wp-image-1515"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_2.png)
 
 <!-- wp:paragraph -->
 <p>If it does not seem very intuitive for you – you should not worry. I will try to keep the rest of the article in a “human” language and only provide few formulas for the interested reader.</p>
@@ -66,9 +54,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>It is assumed, that the risk before and after a decision is made can be compared. The following applies:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1517,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_3.png" alt="" class="wp-image-1517"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_3.png)
 
 <!-- wp:paragraph -->
 <p>Where the values of C represent some kind arbitrary of risk-value.</p>
@@ -78,17 +64,13 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Risk can be calculated as:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1518,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_4.png" alt="" class="wp-image-1518"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_4.png)
 
 <!-- wp:paragraph -->
 <p>The project does not include probability theory and harm. The trolley scenarios are limited to people dying or not. Therefore, risk is formulated as:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1520,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_5.png" alt="" class="wp-image-1520"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_5.png)
 
 <!-- wp:heading -->
 <h2>The risk framework</h2>
@@ -102,9 +84,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>The following variables are used:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1522,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_update_1.png" alt="" class="wp-image-1522"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_update_1.png)
 
 <!-- wp:paragraph -->
 <p>D are all possible decisions.</p>
@@ -114,9 +94,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>The predicates:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1523,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_update_2.png" alt="" class="wp-image-1523"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_update_2.png)
 
 <!-- wp:heading -->
 <h2>Formalizing utilitarianism</h2>
@@ -130,9 +108,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Formalized mathematically:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1525,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_8.png" alt="" class="wp-image-1525"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_8.png)
 
 <!-- wp:paragraph -->
 <p>This formula can be read as <em>“For all possible decisions in an accident-scenario, the correct decision is the one, where the aggregated risk after the decision has been made, is one, where the risk is as smallest as possible”</em></p>
@@ -162,9 +138,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Formalized mathematically (F1):</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1526,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_9.png" alt="" class="wp-image-1526"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_9.png)
 
 <!-- wp:paragraph -->
 <p>This formula can be read as <em>“For all possible decisions in an accident-scenario, the correct decision is one, where – for each person - the risk after the decision has been made, is the same or has been decreased”</em></p>
@@ -186,9 +160,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Formalized mathematically (F2):</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1527,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_10.png" alt="" class="wp-image-1527"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_10.png)
 
 <!-- wp:paragraph -->
 <p>This formula can be read as <em>“For all possible decisions in an accident-scenario, the correct decision is one, where – for each person - the risk after the decision has been made, is; lowered for one person AND the risk for all other are the same or has been decreased”</em></p>
@@ -210,9 +182,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Formalized mathematically:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1530,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/math_11.png" alt="" class="wp-image-1530"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/math_11.png)
 
 <!-- wp:paragraph -->
 <p>This formula can be read as <em>“For all possible decisions in an accident-scenario, the correct decision is one, where – for each person - the risk after the decision has been made, is the same as before”</em></p>
@@ -223,16 +193,15 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>This section looks very similar to the <a href="https://explorifydata.com/implementing-ethics-in-autonomous-vehicles/"> previous post.</a> You have already seen one of the scenarios - but I will introduce another one for you.</p>
+
+<p>This section looks very similar to the <a href="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/posts/implementing-ethics-in-autonomous-vehicles.md"> previous post.</a> You have already seen one of the scenarios - but I will introduce another one for you.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 <h3>Scenario 1</h3>
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"center","id":1531,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/scenario_1_movie_cropped_gifversion.gif" alt="" class="wp-image-1531"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/scenario_1_movie_cropped_gifversion.gif)
 
 <!-- wp:paragraph -->
 <p>An autonomous car drives with a person, person A.</p>
@@ -266,9 +235,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <h3>Scenario 2</h3>
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"center","id":1532,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/scenario_2_movie_cropped_gifversion.gif" alt="" class="wp-image-1532"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/scenario_2_movie_cropped_gifversion.gif)
 
 <!-- wp:paragraph -->
 <p>An autonomous car drives with a person, person A.</p>
@@ -314,17 +281,13 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Decisions can either be:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1534,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/correct_or_not.png" alt="" class="wp-image-1534"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/correct_or_not.png)
 
 <!-- wp:heading {"level":3} -->
 <h3>Scenario 1</h3>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":1535,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/table_sc_1.png" alt="" class="wp-image-1535"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/table_sc_1.png)
 
 <!-- wp:paragraph -->
 <p>Hopefully, it is clear for you as a reader, that a utilitarian would prefer to kill person C instead of B1 and B2. This is the exact same conclusion the formalizations make.</p>
@@ -346,9 +309,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <h3>Scenario 2</h3>
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":1536,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/table_sc_2.png" alt="" class="wp-image-1536"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/table_sc_2.png)
 
 <!-- wp:paragraph -->
 <p>What is interesting to see is the conclusion of duty ethics (F1). It is morally incorrect to choose to kill Person C to save B1, B2, B3, B4, and B5. This scenario then shows, that according to Kant, it is morally incorrect to use YOURSELF as only a means to an end.</p>
@@ -374,9 +335,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Mathematical is a great tool for translating human language so that computers can understand it. Though, the implementation of formalized ethics is limited by a lot of assumptions. Changing one assumption can change the outcome of a decision completely. Moreover, mathematical logic is often more “strict” than human language. If someone says to you: “You can either take an apple or a piece of watermelon”. I bet you would think you could take either an apple or a piece of watermelon. But, could someone might think that it is OK to take both? A robot would actually think that it is allowed to take both the fruits. These ambiguities in human language is a major challenge when “translating” human language to AVs.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1538,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/human_language.png" alt="" class="wp-image-1538"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/human_language.png)
 
 <!-- wp:paragraph -->
 <p><em>In the context of ethics and AVs, the fruits could represent human lives. The robot could be an AV.   </em></p>

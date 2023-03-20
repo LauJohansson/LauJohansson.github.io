@@ -1,11 +1,5 @@
----
-layout: post
-title: Danish politicians - Does Twitter reflect real politics?
-date: 2020-12-04 16:17
-author: lauskij
-comments: true
-categories: [Ikke kategoriseret]
----
+<h1>Danish politicians - Does Twitter reflect real politics?</h1>
+
 <!-- wp:paragraph -->
 <p> <em>Authors: Frederik Kromann Hansen, Lau Johansson &amp; Christian Petersen<br>4th March 2020<br>Read time: 17 minutes</em> </p>
 <!-- /wp:paragraph -->
@@ -18,9 +12,8 @@ categories: [Ikke kategoriseret]
 <p>In Denmark, the legislative power is in the hands of the elected politicians. These Danish politicians are therefore of great importance for how Denmark develops as a country. The politicians meet at the Danish Parliament to debate bills, and these meetings are publicly available. Outside the Parliament, the Danish politicians also figure on social media – there among Twitter. This platform allows the politicians to directly communicate with both the public and other politicians. It is interesting to examine how politicians are connected on Twitter, and how these connections correspond to the structure of the political system in Denmark. At the same time, it is interesting to analyze the topics of the politicians’ tweets, to shed light on whether the politicians’ opinions on social media correspond to what the parties debate in the Parliament.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1430,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/new_structure_gif_v5.gif" alt="" class="wp-image-1430"/></figure></div>
-<!-- /wp:image -->
+
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/new_structure_gif_v5.gif)
 
 <!-- wp:heading -->
 <h2>Data Collection</h2>
@@ -42,17 +35,13 @@ categories: [Ikke kategoriseret]
 <p>From the list of Danish politicians’ Twitter usernames, each of the profiles is going to represent a node in a graph that is going to be called: “Danish Politicians’ Twitter Network”. In order to make a network that connects the Danish politicians, this project uses tweets from Twitter. Initially, a developer account for twitter has been created. Tweets can then be assessed through Twitter’s API on <a href="https://developer.twitter.com/en">https://developer.twitter.com/en</a>. <a href="https://help.twitter.com/en/using-twitter/types-of-tweets">Tweets</a> are messages posted to Twitter containing text, photos, a GIF, and/or video. Both sender and receivers of tweets can see all tweets on a Home Timeline – a timeline that is different for each person – depending on who you are following.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1431,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/sofiecn_tweet_28oct.png" alt="" class="wp-image-1431"/><figcaption>User sofiecn mentions both KatrineRobsie and zeniastampe. <br>This creates a connection from sofiecn to both KatrineRobsoe and zeniastampe.   </figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/sofiecn_tweet_28oct.png)
 
 <!-- wp:paragraph -->
 <p>This project is especially interested in <a href="https://help.twitter.com/en/using-twitter/types-of-tweets">mentions</a> because mentions are tweets that contain other profiles’ Twitter usernames. A mention in a tweet is preceded by the “@” symbol – which makes it possible to examine the mentions between Danish politicians. These mentions are the edges between politicians in the network.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1433,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/network.png" alt="" class="wp-image-1433"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/network.png)
 
 <!-- wp:heading {"level":3} -->
 <h3>Political parties</h3>
@@ -110,9 +99,7 @@ categories: [Ikke kategoriseret]
 <p>The network can be visualized by coloring the nodes according to the associated party. By further having the distance between nodes relate to the similarity between them it gives an idea of potential polarization and groups within politics. Finally, the size of the nodes determine the “popularity” in the sense that bigger nodes means more mentions suggesting higher popularity. The network is shown below with these traits. Notice how the biggest node is the black one in the middle representing the Government’s official profile, regeringDK. From this it can be seen that this profile on Twitter is mentioned and/or mentions the most other profiles.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1434,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/download-1-1024x506-1.png" alt="" class="wp-image-1434"/><figcaption>The network created by the Danish politicians colored by party and sized by popularity.</figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/download-1-1024x506-1.png)
 
 <!-- wp:paragraph -->
 <p>The top 5 most central profiles on Twitter, the ones who connect to the most of the other politicians are: the Government (regeringDK), Lars Løkke Rasmussen (larsloekke), Jakob Ellemann (JakobElleman), Kristian Jensen (Kristian_Jensen) and Morten Østergaard (oestergaard). Surprisingly, the current Prime Minister Mette Frederiksen, among others, does not have Twitter.</p>
@@ -134,9 +121,7 @@ categories: [Ikke kategoriseret]
 <p>The degree of a random network follows a poisson distribution. Therefore to assess if the Twitter network is completely random or follows some general rules the degree is compared to that of a random network.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/power_law_plot-1.png" alt="" class="wp-image-1435"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/power_law_plot-1.png)
 
 <!-- wp:paragraph -->
 <p>To yet examine the randomness, the above plots can be inspected. On the log-log plot, the degree distribution of the GCC follows the power-law and therefore the GCC of the Twitter network is not random. According to <a href="http://networksciencebook.com/chapter/4">Network Science Book – section 4.2</a> it is even a scale-free network.</p>
@@ -174,17 +159,14 @@ categories: [Ikke kategoriseret]
 <p>We have chosen a totally random Danish politician: <a href="https://twitter.com/StemClausson">StemClausson</a> (Jesper Clausson). On Twitter, he writes that he is a regional council member for Socialdemokratiet at Region Hovedstaden. He is now the main character for the case called "House of Cards - the Danish version". </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1436,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/StemClausson_image-2.jpg" alt="" class="wp-image-1436"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/StemClausson_image-2.jpg)
 
 <!-- wp:paragraph -->
 <p>The social network graph representing all the Danish politicians on Twitter can help identify the connection between Jesper Clausson and all the other Danish politicians. In the graph below Jesper Clausson is the <span style="color:#13cc22" class="has-inline-color"><strong>green</strong></span> node. The politicians that he interacts directly with (mentions others or gets mentioned) are <span style="color:#e70a0e" class="has-inline-color">"1 step away"</span>. Politicians, who do not interact directly with him, but with the 1-step-away'ers, are <span style="color:#1279BE" class="has-inline-color">"2 steps away"</span>. Then you got the point with the <span style="color:#a815e2" class="has-inline-color">"3 steps away"</span> and <span style="color:#e4a908" class="has-inline-color">"4 steps away"</span>...</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1578,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/house_of_cards_gif2.gif" alt="" class="wp-image-1578"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/house_of_cards_gif2.gif)
+
 
 <!-- wp:paragraph -->
 <p>As you notice, many nodes are 2 steps away from Jesper Clausson, which is then consistent with the previously stated fact - that most politicians are 2 steps away from each other. </p>
@@ -194,17 +176,17 @@ categories: [Ikke kategoriseret]
 <p>One of the most central politicians in the network is Lars Løkke Rasmussen (<a href="https://twitter.com/larsloekke">larsloekke</a>) with connections to 213 other politicians on Twitter. According to Lars Løkke Rasmussen's profile, he is a member of The Danish Parliament, former chairman of the party "Venstre" and former Prime Minister. There is no doubt why he is central in the social network of Danish politicians. </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1438,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/lars_billede.jpg" alt="" class="wp-image-1438"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/lars_billede.jpg)
+
+
 
 <!-- wp:paragraph -->
 <p>If Jesper should influence as central a person as Mr. Rasmussen, what should he then do? What if Jesper can not talk directly to Rasmussen, but is able to talk to some of the politicians closer to him. Who should he talk to directly? By finding the politicians which Lars Løkke connects to, we can identify the politicians he interacts with and thereby those who are more likely to influence him than Jesper Clausson. </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1439,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/all_images_to_lars.jpg" alt="" class="wp-image-1439"/><figcaption>Politicians that Lars Løkke Rasmussen connects with. From the top centre and clockwise around: Søren Pape Poulsen, Rasmus Jarlov, Louise Elholm, Bjørn Brandenborg, regeringDK, Statsmin, Frank Jensen, Rasmus Nordqvist, Jesper Petersen, Mai Mercado, Jan E. Jørgensen, Rasmus Stoklund, Jakob Ellemann and Kristian Thulesen Dahl. </figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/all_images_to_lars.jpg)
+
+<em>Politicians that Lars Løkke Rasmussen connects with. From the top centre and clockwise around: Søren Pape Poulsen, Rasmus Jarlov, Louise Elholm, Bjørn Brandenborg, regeringDK, Statsmin, Frank Jensen, Rasmus Nordqvist, Jesper Petersen, Mai Mercado, Jan E. Jørgensen, Rasmus Stoklund, Jakob Ellemann and Kristian Thulesen Dahl.</em>
 
 <!-- wp:paragraph -->
 <p>Not surprisingly, a lot of the politicians that Lars interacts directly with on Twitter, are members of the Parliament. He also interacts with the Twitter-profile of the Prime Minister's Office and the official profile of the Danish government. Several of the politicians "closer" to Lars is from the party "Venstre", but among others are also "Det Konservative Folkeparti", "Socialdemokratiet" and "Dansk Folkeparti". So Jesper Clausson has around two handfuls of politicians to go directly to, if Lars Løkke is unavailable. </p>
@@ -214,9 +196,9 @@ categories: [Ikke kategoriseret]
 <p>What if Jesper Clausson should hope to have a more indirect influence? He does not necessarily want to go directly to all the members of the Danish Parliament. Maybe he does not know any of them personally or professionally - at least he does not interact with them on Twitter. In network theory, there's a term called "Shortest Path", which is the shortest path between two nodes through the graph. This method can help find the people making up the minimum number of interactions between Jesper Clausson and Lars Løkke Rasmussen. What is important to keep in mind is, that we need to find the shortest path FROM larsloekke TO StemClausson, since the network is directed, meaning that there is a difference between if Lars tags someone or someone tags Lars. We need to look at who Lars Løkke mentions on Twitter, then, who do these mentions, and who do these mention etc... The next House-of-Cards'ish question is: "Who should StemClausson talk to if words should spread through the shortest path form Jesper to Lars?"</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1440,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/way_to_lars.jpg" alt="" class="wp-image-1440"/><figcaption>The path shortest path from StemClausson to larsloekke: Jesper Clausson (StemClausson) -&gt; Marianne Frederiksen (mariannefrede20) -&gt; Daniel Panduro (Danielpanduro) -&gt;  Jakob Ellemann (JakobEllemann) -&gt; Lars Løkke Rasmussen (larsloekke).</figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/way_to_lars.jpg)
+<em>The path shortest path from StemClausson to larsloekke: Jesper Clausson (StemClausson) -&gt; Marianne Frederiksen (mariannefrede20) -&gt; Daniel Panduro (Danielpanduro) -&gt;  Jakob Ellemann (JakobEllemann) -&gt; Lars Løkke Rasmussen (larsloekke).</em>
+
 
 <!-- wp:paragraph -->
 <p>StemClausson interacts with marinannefrede20 on Twitter. <a href="https://www.regionh.dk/politik/politiske-udvalg-og-fora/regionsraadet/Sider/Medlemmer_af_regionsraadet_2018-2021.aspx">Regionh.dk</a> informs that both StemClausson and marianne20 are members of the Regional Board. mariannefrede20 is member of the party "Enhedslisten", a party, who also Danielpanduro is a member of. marinanne20 and Danielpanduro also interact on Twitter. He is among other titles <a href="https://org.enhedslisten.dk/kontakt/Frederiksberg">municipal board member of Frederiksberg</a>.  JakobEllemann is <a href="http://Medlem af Folketinget">member of the parliament</a>  and interacts with DanielPanduro on twitter. At the same time JakobElleman is also of the party "Venstre" - the party where larsloekke is member too.  Now we've found the shortest path from StemClausson to larsloekke. </p>
@@ -242,9 +224,7 @@ categories: [Ikke kategoriseret]
 <p>   </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1441,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/tweet_length_hist.png" alt="" class="wp-image-1441"/><figcaption>Histogram for the length of the tweets collected</figcaption></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/tweet_length_hist.png)
 
 <!-- wp:paragraph -->
 <p>For 312 of the 555 politicians, their last 200 tweets has been downloadet. If a politician has less than 200 tweets overall though time, all his/hers tweets are then downloadet. 25% of the politicians has 20 or less tweets. It should be kept in mind that there may be a time lag between tweets across politicians'.</p>
@@ -258,9 +238,7 @@ categories: [Ikke kategoriseret]
 <p>Speech in the Danish Parliament is much more formal than it is on Twitter. Therefore, it is no surprise that the average sentiment for all parties is positive as shown in the bar chart below. They often start their speech by being appreciative towards the one posing the question as well as the moderator for receiving the word. Also, they often say that they understand the cause of the question or the like, which adds to a positive sentiment score as well. On the other hand, they primarily discuss disagreements on current issues, contributing to the negative side.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1442,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/mean_sentiment.png" alt="" class="wp-image-1442"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/mean_sentiment.png)
 
 <!-- wp:paragraph -->
 <p>Notice that Nye Borgerlige, <a href="https://nyeborgerlige.dk/derfor-bliver-vi-kaldt-racister-og-fremmedhadere/">infamous for being xenofobic</a>, has the lowest average sentiment. One should also keep in mind, that one can choose to focus on negative aspects of a topic and another on the positive ones and thereby have different sentiments in the same conversation.</p>
@@ -294,9 +272,7 @@ categories: [Ikke kategoriseret]
 <p>Let’s also look at the overall sentiment per party, so without considering the mentions.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1443,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/box.png" alt="" class="wp-image-1443"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/box.png)
 
 <!-- wp:paragraph -->
 <p>We see that every party has a median score of 0 or above. Furthermore, the Government, Venstre, and Det Konservative Folkeparti, seem to have a smaller variance in the sentiment of their tweets.</p>
@@ -310,9 +286,7 @@ categories: [Ikke kategoriseret]
 <p>Lastly, a network could be generated where edge colors represent the mean sentiment between the parties</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1444,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/friendship-1024x514-1.png" alt="" class="wp-image-1444"/><figcaption>Graph representing the Danish parties - edges are mean sentiment between them</figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/friendship-1024x514-1.png)
 
 <!-- wp:coblocks/accordion -->
 <div class="wp-block-coblocks-accordion"><!-- wp:coblocks/accordion-item {"title":"Click here to see table with sentiment scoring between the parties"} -->
@@ -346,9 +320,7 @@ categories: [Ikke kategoriseret]
 <p>Let’s start by looking at Socialdemokratiet.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1445,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/Socialdemokratiet-1024x400-1.png" alt="" class="wp-image-1445"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/Socialdemokratiet-1024x400-1.png)
 
 <!-- wp:paragraph -->
 <p>Top 8 <strong>Meeting</strong> topics: work, people, children, possibilities, folks, forward, time, people's party</p>
@@ -366,9 +338,7 @@ categories: [Ikke kategoriseret]
 <p>Lets have a look on Nye Borgerlige…</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1446,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/Nye-Borgerlige-1024x395-1.png" alt="" class="wp-image-1446"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/Nye-Borgerlige-1024x395-1.png)
 
 <!-- wp:paragraph -->
 <p>Top 8 <strong>Meeting</strong> topics: "nye borgerlige", people, folks, money, "venstre", foreigners, possibilities, Islam</p>
@@ -386,9 +356,7 @@ categories: [Ikke kategoriseret]
 <p>Let’s look at Radikale Venstre…</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1449,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/Radikale-Venstre-1024x395-1.png" alt="" class="wp-image-1449"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/Radikale-Venstre-1024x395-1.png)
 
 <!-- wp:paragraph -->
 <p>Top 8 <strong>Meeting</strong> topics: "radikale venstre", decline, people's party, children, work, folks, people, money</p>
@@ -426,9 +394,7 @@ categories: [Ikke kategoriseret]
 <p>To generate communities from the Twitter network, the best partition algorithm was used. It seeks to maximize the modularity of each community using Louvain heuristics. More on this <a href="http://networksciencebook.com/chapter/9#modularity">here</a>. Below is a visualization of the best partitioning of the network.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1450,"sizeSlug":"large","linkDestination":"none","animation":"fadeIn"} -->
-<figure class="wp-block-image size-large coblocks-animate" data-coblocks-animation="fadeIn"><img src="https://explorifydata.com/wp-content/uploads/2021/03/website_plots_v5_wComNames-1024x420-1.png" alt="" class="wp-image-1450"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/website_plots_v5_wComNames-1024x420-1.png)
 
 <!-- wp:paragraph -->
 <p>With the communities in place, it was of interest to see what these communities talked about, so a series of words clouds were produced to summarize this data.</p>
@@ -438,9 +404,7 @@ categories: [Ikke kategoriseret]
 <p>For example the word cloud for the first community looks like this;</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1451,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/commu.1-edited.png" alt="" class="wp-image-1451"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/commu.1-edited.png)
 
 <!-- wp:paragraph -->
 <p>The three most central profiles in this community, (Morten Østergaard, Sofie Carsten Nielsen, and Kristian Hegaard) are all from the same political party “Radikale Venstre”, which could be the reason why “Radikale” are one of the main topics of this community. After looking into the community members, it is observed that there are a lot of members from the “Radikale Venstre”. Some of the main topics from the community are also <a href="https://www.opdagdanmark.dk/">opdagdanmark</a>, which is a webpage dedicated to informing about the activities in Denmark. Furthermore, the community talks about “gin”, which indicates a more non-formal language.</p>
@@ -450,9 +414,7 @@ categories: [Ikke kategoriseret]
 <p>Let’s have a look on another community word cloud.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1452,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/community1-2.png" alt="" class="wp-image-1452"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/community1-2.png)
 
 <!-- wp:paragraph -->
 <p>Marianne Vind ("Socialdemokratiet"), Karen Melchior ("Radikale Venstre"), and Jan E. Jørgensen ("Venstre") are the most central politicians in this community. This community tweets the most about the EU. Marianne and Karen are both members of the EU-Parliament and Jan is EU-moderator for "Venstre". Therefore it is not surprising, that these are the main topics of these politicians. Regardless, this could support that these politicians, which officially are attached to political posts regarding the EU - are actually also tweeting about the EU. There is therefore some link between their political role and their tweet topics.</p>

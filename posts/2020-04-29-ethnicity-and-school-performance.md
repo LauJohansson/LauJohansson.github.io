@@ -1,13 +1,6 @@
----
-layout: post
-title: Ethnicity and school performance
-date: 2020-04-29 18:07
-author: lauskij
-comments: true
-categories: [ethnic, household income, Ikke kategoriseret, performance, regression, School]
----
+
 <!-- wp:heading {"level":6} -->
-<h6>Challenging the myth - Does ethnic composition affect public school performance?</h6>
+<h1>Challenging the myth - Does ethnic composition affect public school performance?</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"customFontSize":15} -->
@@ -15,8 +8,10 @@ categories: [ethnic, household income, Ikke kategoriseret, performance, regressi
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":1555,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/newspapers_introduction_v3.png" alt="" class="wp-image-1555"/><figcaption>News articles claiming a connection between school performance and share of students with foreign backgrounds</figcaption></figure></div>
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/newspapers_introduction_v3.png" alt="" class="wp-image-1555"/><figcaption>News articles claiming a connection between school performance and share of students with foreign backgrounds</figcaption></figure></div>
 <!-- /wp:image -->
+
+
 
 <!-- wp:paragraph {"align":"justify"} -->
 <p class="has-text-align-justify">In Denmark, a prevalent opinion in the public discourse and mainstream media is that the performance of public schools becomes lower due to a higher share of students from foreign backgrounds.</p>
@@ -35,14 +30,12 @@ categories: [ethnic, household income, Ikke kategoriseret, performance, regressi
 <!-- /wp:paragraph -->
 
 <!-- wp:media-text {"mediaId":1557,"mediaLink":"https://explorifydata.com/ethnicity-and-school-performance/share_foreign-2/","mediaType":"image"} -->
-<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="https://explorifydata.com/wp-content/uploads/2021/03/share_foreign.gif" alt="" class="wp-image-1557 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","textColor":"primary","fontSize":"large"} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/share_foreign.gif" alt="" class="wp-image-1557 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","textColor":"primary","fontSize":"large"} -->
 <p class="has-primary-color has-text-color has-large-font-size">Before diving into the analysis, check out the map below that shows an overview of the share of students from foreign backgrounds (in percent) for each school district. Try browsing through the different districts and see if you can find the one your school belongs to. By the way, you can click on the </p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:media-text -->
 
-<!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2021/03/map_with_foreign_12-May-1537_map.html" style="border:0px #ffffff none;" name="School_map" scrolling="no" frameborder="1" height="650px" width="100%" allowfullscreen=""></iframe></div>
-<!-- /wp:html -->
+[Link to plot](https://laujohansson.github.io/htmlfiles/map_with_foreign_12-May-1537_map.html)
 
 <!-- wp:heading {"textColor":"primary"} -->
 <h2 class="has-primary-color has-text-color">Going beyond the simple correlation</h2>
@@ -56,9 +49,9 @@ categories: [ethnic, household income, Ikke kategoriseret, performance, regressi
 <p class="has-text-align-justify">At first glance, it appears that the prevalent opinion regarding the effect of ethnic composition on school performance (a metric combining grade point average and student well-being) is confirmed if these are the only two parameters observed. But what if more dimensions are included in the analysis? Take a look at the scatterplot below, which implies a correlation between the share of students with foreign backgrounds and school performance. Try browsing through the tabs of the plot below and reflect on what you see.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2021/03/scatter-html1.htm" style="border:0px #ffffff none;" name="School_map" scrolling="no" frameborder="1" height="650px" width="100%" allowfullscreen=""></iframe></div>
-<!-- /wp:html -->
+
+[Link to plot](https://laujohansson.github.io/htmlfiles/scatter-html1.html)
+
 
 <!-- wp:paragraph -->
 <p>A darker colour means higher average household income and a big circle means high levels of education held by parents of the students attending the school. Both dimensions seem to be correlated with school performance as well. Already, we are starting to turn the coin and show another side of the story.</p>
@@ -92,10 +85,8 @@ categories: [ethnic, household income, Ikke kategoriseret, performance, regressi
 <p class="has-text-align-justify">Look at the plot below of a fake model that explains weight-loss (target-variable):   </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group -->
-<div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2021/03/dan3.htm" style="border:0px #ffffff none;" name="School_map" scrolling="no" frameborder="1" height="620px" width="100%" allowfullscreen=""></iframe></div>
-<!-- /wp:html -->
+  
+ [Link to plot](https://laujohansson.github.io/htmlfiles/dan3.html)
 
 <!-- wp:paragraph {"align":"justify"} -->
 <p class="has-text-align-justify">Some of the variables are expected to impact weight-loss, like <strong>hours at the gym</strong> and <strong>portions of fast food</strong> eaten. Some of the variables are not expected to impact weight-loss as <strong>meetings attended</strong> and <strong>books read</strong>. And this is exactly what the plot shows! If one spends more <strong>hours at the gym</strong> it will probably result in a bigger weight-loss: a positive coefficient of a high magnitude with a small confidence interval, that does not overlap zero - indicating <em>significance</em>. Conversely for <strong>fast food</strong>: negative coefficient, high magnitude, small confidence interval, no overlap with zero. Finally, <strong>meetings attended</strong> and <strong>books read</strong> both have coefficients close to zero, with wide confidence intervals that overlap zero, indicating <em>insignificance.</em>   </p>
@@ -134,9 +125,7 @@ categories: [ethnic, household income, Ikke kategoriseret, performance, regressi
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:group -->
 
-<!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2021/03/dan1.htm" style="border:0px #ffffff none;" name="School_map" scrolling="no" frameborder="1" height="650px" width="100%" allowfullscreen=""></iframe></div>
-<!-- /wp:html -->
+[Link to plot](https://laujohansson.github.io/htmlfiles/dan1.html)
 
 <!-- wp:paragraph {"align":"justify"} -->
 <p class="has-text-align-justify">What have we learned from this? Two things:</p>
@@ -150,9 +139,8 @@ categories: [ethnic, household income, Ikke kategoriseret, performance, regressi
 <p>Dive into a plot of <span style="color:#99d594" class="has-inline-color"><strong>Model 3</strong> </span>and check out the impact of each individual variable:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2021/03/htmlDAN2-3.htm" style="border:0px #ffffff none;" name="School_map" scrolling="no" frameborder="1" height="620px" width="100%" allowfullscreen=""></iframe></div>
-<!-- /wp:html -->
+
+[Link to plot](https://laujohansson.github.io/htmlfiles/htmlDAN2-3.html)
 
 <!-- wp:paragraph {"align":"justify"} -->
 <p class="has-text-align-justify"><mark class="wp-block-coblocks-highlight__content">It seems that the share of students with foreign backgrounds is actually irrelevant for the performance of the school if we also take into account a few variables regarding the school itself, the average household income, unemployment and educational level in the school district.</mark> And now imagine <strong>ALL THE OTHER THINGS</strong> that could impact school performance as well - just naming a few: parents' interest in kids' life, the relationship between teachers and students, parents' willingness/ability to help kids with their homework, quality of leadership of the school, and teachers' skills within education and communication. All these things are not included in <strong><span style="color:#99d594" class="has-inline-color">Model 3</span></strong> and are pretty darn hard to measure. But imagine the small, insignificant impact that share of students with foreign backgrounds would have in that big, fully informed model. Probably just as small an impact as reading books has on weight-loss.</p>
@@ -182,9 +170,7 @@ categories: [ethnic, household income, Ikke kategoriseret, performance, regressi
 <p class="has-text-align-justify">Use the map below to identify the performance of the school you want to investigate. Use the tabs to navigate to the variables which affect the performance (average household income and education score). Did you forget the share of students from foreign backgrounds in your school district? Don't worry - you can find the map here also! When you are done investigating the variables you can go to the last tab <span style="text-decoration: underline;">"School webpages"</span>. Click on the district and you will be navigated to the school's .kk.dk webpage. </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2021/03/map_with_tab_15-May-1503_map.html" style="border:0px #ffffff none;" name="School_map" scrolling="no" frameborder="1" height="650px" width="100%" allowfullscreen=""></iframe></div>
-<!-- /wp:html -->
+[Link to plot](https://laujohansson.github.io/htmlfiles/map_with_tab_15-May-1503_map.html)
 
 <!-- wp:separator {"color":"primary"} -->
 <hr class="wp-block-separator has-text-color has-background has-primary-background-color has-primary-color"/>

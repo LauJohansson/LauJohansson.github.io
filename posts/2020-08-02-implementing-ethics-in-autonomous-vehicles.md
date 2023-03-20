@@ -1,11 +1,4 @@
----
-layout: post
-title: Implementing Ethics in Autonomous Vehicles
-date: 2020-08-02 13:36
-author: lauskij
-comments: true
-categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke kategoriseret, Machine learning]
----
+<h1>Implementing Ethics in Autonomous Vehicles</h1>
 <!-- wp:paragraph {"customFontSize":15} -->
 <p style="font-size:15px"><em>Author: Lau Johansson<br>1st August 2020<br>Reading time: 15 min.</em></p>
 <!-- /wp:paragraph -->
@@ -50,17 +43,19 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Autonomous (driverless) cars are vehicles, which fully or partly can drive without assistance from a human driver. Decision making and actions performed by the autonomous car can be divided into three parts: Perception, thinking (computing) and acting (control). These stages are all necessary for replacing human drivers.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1540,"width":779,"height":309,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://explorifydata.com/wp-content/uploads/2021/03/Understand_AV.png" alt="" class="wp-image-1540" width="779" height="309"/><figcaption>Picture from: <a href="http://sitn.hms.harvard.edu/flash/2017/self-driving-cars-technology-risks-possibilities/">http://sitn.hms.harvard.edu/flash/2017/self-driving-cars-technology-risks-possibilities/</a></figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/Understand_AV.png)
+  
+<em>Picture from: <a href="http://sitn.hms.harvard.edu/flash/2017/self-driving-cars-technology-risks-possibilities/">http://sitn.hms.harvard.edu/flash/2017/self-driving-cars-technology-risks-possibilities/</a></figcaption></em>
+
 
 <!-- wp:paragraph -->
 <p>How does this relate to machine learning? The data from the cameras, LIDARs, and radars are passed to a computer inside the car. To let the car “see” its surroundings convolutional neural network decides WHAT objects there are on the road (e.g pedestrians) and WHERE the object is located. This is respectively called “Image Classification” and “Image localization”.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1541,"width":777,"height":516,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://explorifydata.com/wp-content/uploads/2021/03/CNN.png" alt="" class="wp-image-1541" width="777" height="516"/><figcaption>Picture from: <a href="https://autonomous-driving.org/2018/07/15/semantic-segmentation-datasets-for-urban-driving-scenes/">https://autonomous-driving.org/2018/07/15/semantic-segmentation-datasets-for-urban-driving-scenes/</a></figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/CNN.png)
+
+<em>Picture from: <a href="https://autonomous-driving.org/2018/07/15/semantic-segmentation-datasets-for-urban-driving-scenes/">https://autonomous-driving.org/2018/07/15/semantic-segmentation-datasets-for-urban-driving-scenes/</a>></em>
+
 
 <!-- wp:heading -->
 <h2>Why ethics?</h2>
@@ -86,9 +81,9 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <blockquote class="wp-block-quote"><p><em>“A man controls a switch of a runaway tram which he can only steer from one narrow track on to another. Five men are lying on one track and one man on the other. Anyone on the track the train enters is killed”.</em></p></blockquote>
 <!-- /wp:quote -->
 
-<!-- wp:image {"id":1543,"width":767,"height":391,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://explorifydata.com/wp-content/uploads/2021/03/trolley_1.png" alt="" class="wp-image-1543" width="767" height="391"/><figcaption>Picture from: <a href="https://newrepub-lic.com/article/139161/trolley-problem-explains-2016">https://newrepub-lic.com/article/139161/trolley-problem-explains-2016</a></figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/trolley_1.png)
+
+<em>Picture from: <a href="https://newrepub-lic.com/article/139161/trolley-problem-explains-2016">https://newrepub-lic.com/article/139161/trolley-problem-explains-2016</a></em>
 
 <!-- wp:paragraph -->
 <p>Some people would say, that if the man with the control switch does not do anything – he actually does not kill them – he just “let them die”. Even though this seems a little harsh – are they right?</p>
@@ -102,9 +97,9 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <blockquote class="wp-block-quote"><p><em>“George stands on a footbridge over the trolley tracks. He sees a trolley out of control. On the back of the bridge, there are five people. The people can not get away in time. George knows, that the only way to stop the trolley is to drop a very heavy weight on its path. The only available, sufficiently heavy weight is a fat man, who also stand on the footbridge. George can push the man down on the tracks and kill the fat man. Or, he can refrain, but then the five people die”.</em></p></blockquote>
 <!-- /wp:quote -->
 
-<!-- wp:image {"id":1544,"width":785,"height":422,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://explorifydata.com/wp-content/uploads/2021/03/trolley_2.png" alt="" class="wp-image-1544" width="785" height="422"/><figcaption>Picture from: <a href="https://newrepub-lic.com/article/139161/trolley-problem-explains-2016">https://newrepub-lic.com/article/139161/trolley-problem-explains-2016</a></figcaption></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/trolley_2.png)
+
+<em>Picture from: <a href="https://newrepub-lic.com/article/139161/trolley-problem-explains-2016">https://newrepub-lic.com/article/139161/trolley-problem-explains-2016</a></em>
 
 <!-- wp:paragraph -->
 <p>How would you decide? Try out different scenarios at <a href="https://moralmachine.mit.edu/">https://moralmachine.mit.edu/</a></p>
@@ -171,7 +166,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>In this post, mathematical logic is used to formalize the three ethical theories. Mathematical modeling is a work process where mathematics is applied to shed light on problems from the real world. If you are interested in a brief introduction to how to work with mathematical logic and ethics – <a href="https://explorifydata.com/the-math-behind-implementing-ethics-in-autonomous-vehicles//the-math-behind-implementing-ethics-in-autonomous-vehicles/">this blogpost is for you.</a></p>
+<p>In this post, mathematical logic is used to formalize the three ethical theories. Mathematical modeling is a work process where mathematics is applied to shed light on problems from the real world. If you are interested in a brief introduction to how to work with mathematical logic and ethics – [Link](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/posts/2020-08-11-the-math-behind-implementing-ethics-in-autonomous-vehicles.md) this blogpost is for you.</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:coblocks/accordion -->
@@ -188,9 +183,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <h3>Accident scenario </h3>
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"center","id":1532,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/scenario_2_movie_cropped_gifversion.gif" alt="" class="wp-image-1532"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/scenario_2_movie_cropped_gifversion.gif)
 
 <!-- wp:paragraph -->
 <p>An autonomous vehicle drives with a person, person A.</p>
@@ -236,17 +229,13 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Decisions can either be:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1534,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/correct_or_not.png" alt="" class="wp-image-1534"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/correct_or_not.png)
 
 <!-- wp:paragraph -->
 <p>Here is my take on how each of the theories conclude on the scenario:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":1536,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/table_sc_2.png" alt="" class="wp-image-1536"/></figure>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/table_sc_2.png)
 
 <!-- wp:paragraph -->
 <p>Hopefully, it is clear for you as a reader, that a utilitarian would prefer to kill person C instead of B1, B2, B3, B4 and, B5. By killing five people instead of one - the risk has been decreased for as many people as possible - said in another way; the "welfare" has been maximized for as many as possible. </p>
@@ -276,9 +265,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Mathematics is a great tool for translating human language so that computers can understand it. Though, the implementation of formalized ethics is limited by a lot of assumptions. Changing one assumption can change the outcome of a decision completely. Moreover, mathematical logic is often more “strict” than human language. If someone says to you: “You can either take an apple or a piece of watermelon”. I bet you would think you could take either an apple or a piece of watermelon. But, could someone might think that it is OK to take both? A robot would actually think that it is allowed to take both the fruits. These ambiguities in human language is a major challenge when “translating” human language to AVs.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1538,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/human_language.png" alt="" class="wp-image-1538"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/human_language.png)
 
 <!-- wp:paragraph -->
 <p><em>In the context of ethics and AVs, the fruits could represent human lives. The robot could be an AV.   </em></p>
@@ -292,17 +279,13 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <p>Opinions on ethics are also not unambiguous. A study with 1900 participants has been conducted, to find out which moral algorithms the population of the society is willing to accept. The conclusion was, that participants tend to agree that everyone will be in the best position if self-driving cars are utilitarian. The very same participants have a personal incentive to drive in self-driving cars that protect themselves at all costs. In other words, we want others to drive cars which do the “best” for all of us. But, the car we drive ourselves must prioritize our own lives. <a href="https://arxiv.org/pdf/1510.03346.pdf"> Read the article here. </a> </p>
 <!-- /wp:html -->
 
-<!-- wp:image {"align":"center","id":1548,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/own_car_other_car.png" alt="" class="wp-image-1548"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/own_car_other_car.png)
 
 <!-- wp:paragraph -->
 <p>Moral preferences can vary cross-culturally and the study "The Moral Machine" has identified three distinct clusters of countries with common moral preferences. It turns out to be great differences between the clusters, where, for example, in “southern countries” there are strong preferences, that the lives of young people as well as the lives of women must be saved, but in return have lower preferences about saving humans over animals.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":1550,"width":557,"height":225,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://explorifydata.com/wp-content/uploads/2021/03/diff_pref.png" alt="" class="wp-image-1550" width="557" height="225"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/diff_pref.png)
 
 <!-- wp:paragraph -->
 <p>In my opinion, political regulation is a challenge in relationships for the introduction of self-driving cars and by implementing ethics in self-driving cars, the study “The Moral Machine ” is relevant, as politicians should be aware of moral preferences in the countries where self-driving cars are to be implemented. <a href="https://www.nature.com/articles/s41586-018-0637-6">Read the article here. </a></p>
@@ -364,9 +347,7 @@ categories: [AI, artificial intelligence, Autonomous Vehicles, AV, Ethics, Ikke 
 <blockquote class="wp-block-quote"><p>What if all AV’s are equipped with three buttons – each of them representing an ethical theory for the AV to respond to? &nbsp;When the passengers of AVs get into the car they must choose one of the&nbsp;buttons.</p></blockquote>
 <!-- /wp:quote -->
 
-<!-- wp:image {"align":"center","id":1552,"sizeSlug":"large","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://explorifydata.com/wp-content/uploads/2021/03/three_botton_gif.gif" alt="" class="wp-image-1552"/></figure></div>
-<!-- /wp:image -->
+![](https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/three_botton_gif.gif)
 
 <!-- wp:paragraph -->
 <p>Could this be a step closer to implementing ethics in autonomous vehicles?</p>

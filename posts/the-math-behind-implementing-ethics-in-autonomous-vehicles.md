@@ -4,7 +4,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This blog post elaborates on how the three ethical theories from my previous blogpost has been mathematically formalized. Before continuing reading I recommend to spend some time understanding <a href="http://box5496.temp.domains/~explorif2020/08/02/implementing-ethics-in-autonomous-vehicles/">the post </a></p>
+<p>This blog post elaborates on how the three ethical theories from my previous blogpost has been mathematically formalized. Before continuing reading I recommend to spend some time understanding <a href="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/posts/implementing-ethics-in-autonomous-vehicles.md">this post. </a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->

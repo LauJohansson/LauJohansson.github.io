@@ -35,7 +35,9 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:media-text -->
 
-[Link to plot](https://laujohansson.github.io/htmlfiles/map_with_foreign_12-May-1537_map.html)
+[Link to interactive plot](https://laujohansson.github.io/htmlfiles/map_with_foreign_12-May-1537_map.html)
+
+<a href="https://laujohansson.github.io/htmlfiles/map_with_foreign_12-May-1537_map.html"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/share_foreign_plot.png"  width="60%" height="30%"></a>
 
 <!-- wp:heading {"textColor":"primary"} -->
 <h2 class="has-primary-color has-text-color">Going beyond the simple correlation</h2>
@@ -50,7 +52,12 @@
 <!-- /wp:paragraph -->
 
 
-[Link to plot](https://laujohansson.github.io/htmlfiles/scatter-html1.html)
+[Link to interactive plot](https://laujohansson.github.io/htmlfiles/scatter-html1.html)
+
+
+
+<a href="https://laujohansson.github.io/htmlfiles/scatter-html1.html"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/scatter_plot.png"  width="60%" height="30%"></a>
+
 
 
 <!-- wp:paragraph -->
@@ -86,7 +93,13 @@
 <!-- /wp:paragraph -->
 
   
- [Link to plot](https://laujohansson.github.io/htmlfiles/dan3.html)
+ [Link to interactive plot](https://laujohansson.github.io/htmlfiles/dan3.html)
+ 
+ 
+ 
+<a href="https://laujohansson.github.io/htmlfiles/dan3.html"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/coef_plot.png"  width="60%" height="30%"></a>
+
+ 
 
 <!-- wp:paragraph {"align":"justify"} -->
 <p class="has-text-align-justify">Some of the variables are expected to impact weight-loss, like <strong>hours at the gym</strong> and <strong>portions of fast food</strong> eaten. Some of the variables are not expected to impact weight-loss as <strong>meetings attended</strong> and <strong>books read</strong>. And this is exactly what the plot shows! If one spends more <strong>hours at the gym</strong> it will probably result in a bigger weight-loss: a positive coefficient of a high magnitude with a small confidence interval, that does not overlap zero - indicating <em>significance</em>. Conversely for <strong>fast food</strong>: negative coefficient, high magnitude, small confidence interval, no overlap with zero. Finally, <strong>meetings attended</strong> and <strong>books read</strong> both have coefficients close to zero, with wide confidence intervals that overlap zero, indicating <em>insignificance.</em>   </p>
@@ -125,7 +138,9 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:group -->
 
-[Link to plot](https://laujohansson.github.io/htmlfiles/dan1.html)
+[Link to interactive plot](https://laujohansson.github.io/htmlfiles/dan1.html)
+
+<a href="https://laujohansson.github.io/htmlfiles/dan1.html"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/coef_plot_all.png"  width="60%" height="30%"></a>
 
 <!-- wp:paragraph {"align":"justify"} -->
 <p class="has-text-align-justify">What have we learned from this? Two things:</p>
@@ -140,7 +155,9 @@
 <!-- /wp:paragraph -->
 
 
-[Link to plot](https://laujohansson.github.io/htmlfiles/htmlDAN2-3.html)
+[Link to interactive plot](https://laujohansson.github.io/htmlfiles/htmlDAN2-3.html)
+
+<a href="https://laujohansson.github.io/htmlfiles/htmlDAN2-3.html"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/coef_plot_model3.png"  width="60%" height="30%"></a>
 
 <!-- wp:paragraph {"align":"justify"} -->
 <p class="has-text-align-justify"><mark class="wp-block-coblocks-highlight__content">It seems that the share of students with foreign backgrounds is actually irrelevant for the performance of the school if we also take into account a few variables regarding the school itself, the average household income, unemployment and educational level in the school district.</mark> And now imagine <strong>ALL THE OTHER THINGS</strong> that could impact school performance as well - just naming a few: parents' interest in kids' life, the relationship between teachers and students, parents' willingness/ability to help kids with their homework, quality of leadership of the school, and teachers' skills within education and communication. All these things are not included in <strong><span style="color:#99d594" class="has-inline-color">Model 3</span></strong> and are pretty darn hard to measure. But imagine the small, insignificant impact that share of students with foreign backgrounds would have in that big, fully informed model. Probably just as small an impact as reading books has on weight-loss.</p>
@@ -170,7 +187,10 @@
 <p class="has-text-align-justify">Use the map below to identify the performance of the school you want to investigate. Use the tabs to navigate to the variables which affect the performance (average household income and education score). Did you forget the share of students from foreign backgrounds in your school district? Don't worry - you can find the map here also! When you are done investigating the variables you can go to the last tab <span style="text-decoration: underline;">"School webpages"</span>. Click on the district and you will be navigated to the school's .kk.dk webpage. </p>
 <!-- /wp:paragraph -->
 
-[Link to plot](https://laujohansson.github.io/htmlfiles/map_with_tab_15-May-1503_map.html)
+[Link interactive to plot](https://laujohansson.github.io/htmlfiles/map_with_tab_15-May-1503_map.html)
+
+<a href="https://laujohansson.github.io/htmlfiles/map_with_tab_15-May-1503_map.html"><img src="https://github.com/LauJohansson/LauJohansson.github.io/blob/main/images/schools_plot.png"  width="60%" height="30%"></a>
+
 
 <!-- wp:separator {"color":"primary"} -->
 <hr class="wp-block-separator has-text-color has-background has-primary-background-color has-primary-color"/>

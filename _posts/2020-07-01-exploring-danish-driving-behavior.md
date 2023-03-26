@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Exploring Danish Driving Behavior
-date: 2020-07-01 21:49
-author: jonassoebro
-comments: true
-categories: [Ikke kategoriseret]
 ---
 <!-- wp:paragraph -->
 <p> <em>Authors: Jonas Christophersen, Alessandro Pasta &amp; Alex Incerti<br>1st July 2020<br>Read time: 17 minutes</em> </p>

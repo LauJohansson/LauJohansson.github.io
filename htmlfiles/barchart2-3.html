@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="observablehq-a4bcc177"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@incioman/percentage-over-speed-limit-predictor-from-social-indexes.js?v=3";
+const inspect = Inspector.into("#observablehq-a4bcc177");
+(new Runtime).module(define, name => name === "chart" ? inspect() : undefined);
+</script>
+</body>
+
+<style>
+#selector{
+width: 350px;
+padding: 15% 0 0 15%;
+}
+
+.svg-tooltip { 
+font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: rgba(69,77,93,.9);
+  border-radius: .1rem;
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  max-width: 320px;
+  padding: .2rem .4rem;
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: pre;
+  z-index: 300;
+  visibility: hidden;
+}
+
+</style>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="observablehq-5a7fe7f7"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@jonassoebro/denmark-traffic-data.js?v=3";
+const inspect = Inspector.into("#observablehq-5a7fe7f7");
+(new Runtime).module(define, name => (name === "chart") && inspect());
+</script>
+</body>
+
+<style>
+#year-selector{
+  padding-left: 20px;
+}
+
+#indicator-selector{
+  margin-top: 14px;
+}
+
+#selection-wrapper {
+  display: flex;
+  height: max-content;
+  width: max-content;
+}
+#title {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.svg-tooltip { 
+font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: rgba(69,77,93,.9);
+  border-radius: .1rem;
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  max-width: 320px;
+  padding: .2rem .4rem;
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: pre;
+  z-index: 300;
+  visibility: hidden;
+  pointer-events: none;
+}
+path.active {
+  stroke: grey;
+  stroke-width: 0.5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .2);
+}
+
+</style>
+</html>

@@ -38,8 +38,9 @@ title: Exploring Danish Driving Behavior
 <p>The map below displays the driving behavior in the Danish municipalities. Using the selector-bar you can choose which driving indicator you want to investigate. The color intensity denotes the value for the particular municipality, and if you mouse over a specific municipality you can see the exact numbers.</p>
 <!-- /wp:paragraph -->
 
+
 <!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2020/05/trafficmap.html" style="border:0px #ffffff none;" name="traffic_map" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
+<div><iframe src="https://laujohansson.github.io/htmlfiles/trafficmap.html" style="border:0px #ffffff none;" name="traffic_map" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -63,7 +64,7 @@ title: Exploring Danish Driving Behavior
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2020/05/socioindex2.html" style="border:0px #ffffff none;" name="socio_map" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
+<div><iframe src="https://laujohansson.github.io/htmlfiles/socioindex2.html" style="border:0px #ffffff none;" name="socio_map" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -91,7 +92,7 @@ title: Exploring Danish Driving Behavior
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2020/05/corrplot2.html" style="border:0px #ffffff none;" name="corrplot" scrolling="no" frameborder="1" height="550px" width="100%" allowfullscreen=""></iframe></div>
+<div><iframe src="https://laujohansson.github.io/htmlfiles/corrplot2.html" style="border:0px #ffffff none;" name="corrplot" scrolling="no" frameborder="1" height="550px" width="100%" allowfullscreen=""></iframe></div>
 <!-- /wp:html -->
 
 <!-- wp:group -->
@@ -124,7 +125,7 @@ title: Exploring Danish Driving Behavior
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2020/05/barchart2-3.html" style="border:0px #ffffff none;" name="barchart" scrolling="no" frameborder="1" height="500px" width="100%" allowfullscreen=""></iframe></div>
+<div><iframe src="https://laujohansson.github.io/htmlfiles/barchart2-3.html" style="border:0px #ffffff none;" name="barchart" scrolling="no" frameborder="1" height="500px" width="100%" allowfullscreen=""></iframe></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -148,7 +149,7 @@ title: Exploring Danish Driving Behavior
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2020/05/predictmunicipality.html" style="border:0px #ffffff none;" name="predict_municipality" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
+<div><iframe src="https://laujohansson.github.io/htmlfiles/predictmunicipality.html" style="border:0px #ffffff none;" name="predict_municipality" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -165,7 +166,7 @@ title: Exploring Danish Driving Behavior
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div><iframe src="https://explorifydata.com/wp-content/uploads/2020/05/knnplot2.html" style="border:0px #ffffff none;" name="knn_prediction" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
+<div><iframe src="https://laujohansson.github.io/htmlfiles/knnplot2.html" style="border:0px #ffffff none;" name="knn_prediction" scrolling="no" frameborder="1" height="700px" width="100%" allowfullscreen=""></iframe></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->

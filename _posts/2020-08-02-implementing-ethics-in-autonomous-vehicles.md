@@ -171,7 +171,7 @@ title: "Implementing Ethics in Autonomous Vehicles"
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>In this post, mathematical logic is used to formalize the three ethical theories. Mathematical modeling is a work process where mathematics is applied to shed light on problems from the real world. If you are interested in a brief introduction to how to work with mathematical logic and ethics – [Link](https://laujohansson.github.io/2020/08/11/the-math-behind-implementing-ethics-in-autonomous-vehicles.html) this blogpost is for you.</a></p>
+<p>In this post, mathematical logic is used to formalize the three ethical theories. Mathematical modeling is a work process where mathematics is applied to shed light on problems from the real world. If you are interested in a brief introduction to how to work with mathematical logic and ethics – <a href="https://laujohansson.github.io/2020/08/11/the-math-behind-implementing-ethics-in-autonomous-vehicles.html"> Link </a> - this blogpost is for you.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:coblocks/accordion -->
